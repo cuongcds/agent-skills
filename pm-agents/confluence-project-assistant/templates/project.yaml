@@ -1,0 +1,24 @@
+project:
+  name: ""
+  description: ""
+  type: ""
+  status: ""
+  language: ""  # content language for confluence-pages/ and pm-area/ (e.g. vi, en); confirm with the user if unknown
+
+confluence:
+  space_key: ""
+  root_page_id: ""
+  root_page_title: ""
+
+workflow:
+  source_inbox: "uncategorized"
+  source_documents: "source-documents"
+  source_map: "pm-area/source-map.md"
+  confluence_pages: "confluence-pages"
+  pm_area: "pm-area"
+
+rules:
+  create_source_folders_on_demand: true
+  create_confluence_folders_on_demand: true
+  create_pm_folders_on_demand: true
+  publish_pm_area: false
